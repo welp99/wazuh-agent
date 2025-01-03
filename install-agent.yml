@@ -61,5 +61,5 @@
     
     - name: Supprimer le paquet téléchargé de l'agent Wazuh
       ansible.builtin.file:
-        path: /tmp/wazuh-agent_4.7.3-1_amd64.deb
+        path: /tmp/wazuh-agent_4.9.2-1_amd64.deb
         state: absent
